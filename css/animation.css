@@ -1,0 +1,14 @@
+.animation-for-caption{
+	animation:caption 2s forwards;
+}
+@keyframes caption{
+	0%{
+		transform: translateY(-40px);
+		
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
